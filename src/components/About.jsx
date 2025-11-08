@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub} from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { useLanguage } from "../LanguageContext";
 
 export default function About() {
@@ -15,13 +15,13 @@ export default function About() {
             {t.about.description}
           </p>
           <div className="flex items-center gap-6 mt-4">
-            <a href="https://www.linkedin.com/" className="dark:bg-white/10 bg-gray-100 backdrop-blur-sm p-4 rounded-full hover:bg-gray-200 dark:hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/lamya-maaou-221a4632a/" className="dark:bg-white/10 bg-gray-100 backdrop-blur-sm p-4 rounded-full hover:bg-gray-200 dark:hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
               <FaLinkedin className="text-3xl dark:text-white text-gray-800" />
             </a>
-            <a href="https://github.com/" className="dark:bg-white/10 bg-gray-100 backdrop-blur-sm p-4 rounded-full hover:bg-gray-200 dark:hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
+            <a href="https://github.com/lamya-maaou" className="dark:bg-white/10 bg-gray-100 backdrop-blur-sm p-4 rounded-full hover:bg-gray-200 dark:hover:bg-white/20 transition-all duration-300 transform hover:scale-110">
               <FaGithub className="text-3xl dark:text-white text-gray-800" />
             </a>
-            <a href="/MAAOU_LAMYA.pdf" download className="bg-pink-500/90 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-pink-600 transition-all duration-300 transform hover:scale-110">
+            <a href="C:/npm stUsers/sa/Desktop/DOCS/Portfolio/portfolio/public/LAMYA_MAAOU.pdf" download className="bg-pink-500/90 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-pink-600 transition-all duration-300 transform hover:scale-110">
               <span className="text-white font-semibold">{t.about.viewCV}</span>
             </a>
           </div>
